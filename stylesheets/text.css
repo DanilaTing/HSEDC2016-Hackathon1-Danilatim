@@ -1,10 +1,40 @@
 .background {
   margin-top: 100px;
   padding-bottom: 30px;
-  width: 301vw;
+  max-width: 1440px;
+  height: 827px;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: hidden;
+  transform: translate3d(0, 0, 0);
 }
 
-.block:first-of-type {
+.block {
+  height: 827px;
+  width: 4720px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+  animation: moveSlideshow 15s linear infinite;
+  animation-delay: 5s;
+}
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-69.666%);
+  }
+}
+
+.allLines {
+  display: flex;
+  width: 4720px;
+  justify-content: space-between;
+}
+
+
+/*.block:first-of-type {
   width: 180vw;
   display: inline-block;
   position: absolute;
@@ -51,19 +81,18 @@
 @keyframes example {
     0%   {margin-left: 100vw;}
     100% {margin-left: -100vw;}
-}
+}*/
 
 .lines {
-  width: 100vw;
-  height: 100vh;
+  width: 1440px;
+  height: 827px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .line {
-  width: 100vw;
-  height: 100vh;
+  width: 1440px;
   display: flex;
   justify-content: space-between;
 }
