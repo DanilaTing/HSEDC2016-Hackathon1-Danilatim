@@ -1,8 +1,56 @@
 .background {
-  width: 100vw;
-  height: 100vh;
   margin-top: 100px;
   padding-bottom: 30px;
+  width: 301vw;
+}
+
+.block:first-of-type {
+  width: 180vw;
+  display: inline-block;
+  position: absolute;
+  margin-left: 100vw;
+  animation-name: example;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+
+@keyframes example {
+    0%   {margin-left: 100vw;}
+    100% {margin-left: -100vw;}
+}
+
+.block:nth-of-type(2) {
+  width: 180vw;
+  display: inline-block;
+  position: absolute;
+  margin-left: 100vw;
+  animation-name: example2;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 3s;
+}
+
+@keyframes example2 {
+    0%   {margin-left: 100vw;}
+    100% {margin-left: -100vw;}
+}
+
+.block:last-of-type {
+  width: 180vw;
+  display: inline-block;
+  position: absolute;
+  margin-left: 100vw;
+  animation-name: example;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+
+@keyframes example {
+    0%   {margin-left: 100vw;}
+    100% {margin-left: -100vw;}
 }
 
 .lines {
@@ -11,16 +59,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  animation-name: example;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-duration: 5s;
-
-}
-
-@keyframes example {
-    0%   {margin-left: 100vw;}
-    100% {margin-left: -100vw;}
 }
 
 .line {
