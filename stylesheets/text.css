@@ -1,11 +1,10 @@
 .background {
-  margin-top: 100px;
-  padding-bottom: 30px;
+  top: 827px;
   max-width: 1440px;
   height: 827px;
   margin: 0 auto;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
   transform: translate3d(0, 0, 0);
 }
 
@@ -98,7 +97,7 @@
 }
 
 .letter {
-  font-family: 'PT Sans Caption', sans-serif;
+  font-family: 'PTSansCaption', sans-serif;
   font-weight: bold;
   font-size: 170pt;
   color: rgba(100, 100, 100, 1);
