@@ -1,4 +1,6 @@
 @import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic');
+@import 'font-awesome.css';
 
 @import 'main.css';
 @import 'text.css';
