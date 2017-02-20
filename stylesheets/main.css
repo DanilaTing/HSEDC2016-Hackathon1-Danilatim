@@ -3,7 +3,12 @@
 }
 
 body{
-  /*overflow: hidden;*/
+  overflow: hidden;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.main {
+  height: 200vh;
 }
 
 .top {
@@ -75,4 +80,46 @@ p.scrolldown::after {
   width: 35px;
   height: 35px;
   margin-left: 10px;
+}
+
+.btns {
+  position: relative;
+  height: 100vh;
+  width: 20%;
+  margin-left: 80%;
+  margin-top: -105vh;
+  text-decoration: underline;
+  font-size: 30px;
+  line-height: 15px;
+  color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.btns p:first-of-type,
+.btns p:last-of-type {
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.btns p:first-of-type {
+  transform: rotate(-90deg);
+}
+
+.btns p:last-of-type {
+  transform: rotate(90deg);
+}
+
+.btns p:first-of-type:hover {
+  margin-top: -5px;
+  transition: all .5s ease;
+}
+
+.btns p:last-of-type:hover {
+  padding-left: 5px;
+  transition: all .5s ease;
 }

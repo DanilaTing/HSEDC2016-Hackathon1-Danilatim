@@ -1,7 +1,7 @@
 .background {
-  top: 827px;
-  max-width: 1440px;
-  height: 827px;
+  top: 100vh;
+  max-width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   position: relative;
   overflow: hidden;

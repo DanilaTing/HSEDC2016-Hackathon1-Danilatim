@@ -1,5 +1,9 @@
 $(function() {
-	$('p.scrolldown').on('click', function() {
-		window.scrollTo(0, 827), 'transition: all 2s ease-in-out';
+	$('p.scrolldown').click(function() {
+		$('.main').css({"margin-top": "-100vh", "transition": "all 1s ease"});
+	});
+
+	$('.btns p:first-of-type').click(function() {
+		$('.main').css({"margin-top": "0vh", "transition": "all 1s ease"});
 	});
 });
