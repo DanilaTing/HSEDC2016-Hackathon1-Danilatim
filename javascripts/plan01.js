@@ -1,9 +1,11 @@
 $(function() {
-  $('.planLow').click(function() {
-		$('.planLow').css('animation', 'none');
+  $('#white').click(function() {
+		$('#white').css('animation', 'none');
 	});
 
-  $('.cls-1').click(function(){
-    $('.invisible').css('opacity', '1');
+  $(function() {
+    $('.cls-1').click(function(){
+      $('.invisible').css('opacity', '1');
+    });
   });
 });
