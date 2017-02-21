@@ -3,9 +3,10 @@ $(function() {
 		$('#white').css('animation', 'none');
 	});
 
-  $(function() {
-    $('.cls-1').click(function(){
-      $('.invisible').css('opacity', '1');
-    });
+
+  $('.cls-1').click(function(){
+    $('.invisible').css('opacity', '1');
+    $('#white').css({'width': '90vw', 'height': '90vh', 'margin-top': '30px', 'transition': 'all 2s ease'})
   });
+
 });
