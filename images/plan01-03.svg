@@ -1,0 +1,97 @@
+<svg id="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1274 900">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4, .cls-5, .cls-7 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #d5ebe5;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        fill: #d5ebe5;
+      }
+
+      .cls-4 {
+        stroke: #ea5b0c;
+      }
+
+      .cls-5 {
+        stroke: #f39200;
+      }
+
+      .cls-6 {
+        fill: #9d9d9c;
+      }
+
+      .cls-7 {
+        stroke: #9d9d9c;
+        stroke-width: 9px;
+      }
+
+      .cls-8 {
+        fill: #f39200;
+      }
+
+      .cls-9 {
+        fill: #ea5b0c;
+      }
+
+      .invisible {
+        opacity: 0;
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $('.cls-1').click(function(){
+          $('.invisible').css('opacity', '1');
+        });
+      });
+    </script>
+  </defs>
+  <title>plan01</title>
+  <polygon class="cls-1" points="621.04 144.61 298.04 348.01 450.11 716.02 800.74 690.1 947.6 315.02 621.04 144.61"/>
+  <polyline class="cls-2 invisible" points="347.25 316.53 368.93 373.2 450.87 321.27 427.15 266.21"/>
+  <rect class="cls-3 invisible" x="527.18" y="284.6" width="82.22" height="129.73" transform="translate(1228.99 441.96) rotate(156.38)"/>
+  <polyline class="cls-2 invisible" points="392.57 571.55 529.64 560.47 545.53 596.95"/>
+  <polyline class="cls-4 invisible" points="534.57 707.7 533.09 690.71 674.99 679.76 676.65 698.77"/>
+  <path class="cls-5 invisible" d="M894.89,449.15s-11.82-5.28-9.15-15.41,17-4.69,17-4.69"/>
+  <path class="cls-5 invisible" d="M846.27,573.31s-10.39-8.75-10.07-18.66,5-51.78,5-51.78l17-40"/>
+  <path class="cls-6 invisible" d="M941.93,315.46l-1.72,23.35c-0.25,0-.93,3.82-1.19,3.82-10.87,0-17.55-8-17.55-18s3.65-17.46,14.52-17.46C936.26,307.19,939.64,318.65,941.93,315.46Z"/>
+  <path class="cls-6 invisible" d="M303,365.15l0.88-23.39c0.25,0,.79-3.85,1-3.86,10.87-.39,17.82,7.36,18.18,17.34s-3,17.58-13.89,18C309,373.21,305.22,361.88,303,365.15Z"/>
+  <path class="cls-6 invisible" d="M460.5,716.46L442.6,701.37c0.13-.22-2.55-3-2.4-3.2,6.38-8.8,16.77-9.52,24.86-3.66s12,13.2,5.61,22C470.52,716.72,459.26,712.73,460.5,716.46Z"/>
+  <path class="cls-6 invisible" d="M806.72,678.95l-19.53,12.91c-0.17-.19-3.59,1.61-3.75,1.4-6.65-8.61-4.4-18.77,3.51-24.88s16-7.78,22.69.82C809.8,669.4,802.8,679.08,806.72,678.95Z"/>
+  <path class="cls-6 invisible" d="M467.37,241.79l30.31-19.68c0.15,0.2.3,0.42,0.44,0.64,5.92,9.12,3.93,20.92-4.45,26.36s-20,2.47-25.89-6.65C467.63,242.23,467.49,242,467.37,241.79Z"/>
+  <polygon class="cls-7 invisible" points="450.11 715.52 298.04 347.51 621.04 144.11 947.6 314.52 800.74 689.6 450.11 715.52"/>
+  <polygon class="cls-7 invisible" points="609.26 336.75 534.97 385.67 591.48 518.55 687.78 514.68 727.76 399.1 609.26 336.75"/>
+  <polyline class="cls-7 invisible" points="529.43 201.81 773.93 337.87 847.18 262.12"/>
+  <circle class="cls-8 invisible" cx="760.49" cy="481" r="7.56" transform="translate(-136.78 413.02) rotate(-27.98)"/>
+  <circle class="cls-8 invisible" cx="794.59" cy="462.89" r="7.56" transform="translate(-124.29 426.9) rotate(-27.98)"/>
+  <circle class="cls-8 invisible" cx="792.13" cy="508.32" r="7.56" transform="translate(-145.9 431.06) rotate(-27.98)"/>
+  <circle class="cls-8 invisible" cx="819.55" cy="493.76" r="7.56" transform="translate(-135.86 442.22) rotate(-27.98)"/>
+  <rect class="cls-3 invisible" x="470.4" y="456.95" width="13.43" height="25.74" transform="translate(759.1 -137.51) rotate(70.35)"/>
+  <rect class="cls-3 invisible" x="411.1" y="460.64" width="13.43" height="25.74" transform="translate(723.21 -79.22) rotate(70.35)"/>
+  <rect class="cls-3 invisible" x="444.16" y="421.75" width="13.43" height="25.74" transform="translate(708.53 -136.16) rotate(70.35)"/>
+  <rect class="cls-3 invisible" x="494.74" y="486.84" width="13.43" height="25.74" transform="translate(803.4 -140.6) rotate(70.35)"/>
+  <rect class="cls-3 invisible" x="466.6" y="522.87" width="13.43" height="25.74" transform="translate(818.66 -90.19) rotate(70.35)"/>
+  <rect class="cls-3 invisible" x="435.57" y="490.91" width="13.43" height="25.74" transform="translate(767.96 -82.18) rotate(70.35)"/>
+  <rect class="cls-1 invisible" x="619.82" y="510.01" width="41.18" height="14.88" transform="translate(-19.4 24.98) rotate(-2.2)"/>
+  <rect class="cls-1 invisible" x="722.76" y="313.83" width="41.18" height="14.88" transform="translate(260.22 -328.63) rotate(30)"/>
+  <rect class="cls-9 invisible" x="598.42" y="621.83" width="18.16" height="18.16" transform="translate(-33.23 33.78) rotate(-3.1)"/>
+  <rect class="cls-9 invisible" x="632.86" y="586.32" width="18.16" height="18.16" transform="translate(-31.26 35.59) rotate(-3.1)"/>
+  <rect class="cls-9 invisible" x="667.57" y="618.09" width="18.16" height="18.16" transform="translate(-32.93 37.51) rotate(-3.1)"/>
+  <rect class="cls-9 invisible" x="636.36" y="650.89" width="18.16" height="18.16" transform="translate(-34.75 35.87) rotate(-3.1)"/>
+  <line class="cls-7 invisible" x1="405.55" y1="607.69" x2="555.7" y2="595.4"/>
+  <polyline class="cls-7 invisible" points="817.26 647.4 742.7 620.25 765.67 565.69 838.74 592.55"/>
+</svg>

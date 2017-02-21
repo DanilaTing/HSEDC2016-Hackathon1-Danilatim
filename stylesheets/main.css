@@ -95,7 +95,6 @@ p.scrolldown::after {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  z-index: 100;
 }
 
 .btns p:first-of-type,
@@ -104,6 +103,7 @@ p.scrolldown::after {
   align-content: center;
   cursor: pointer;
   transition: all .5s ease;
+  z-index: 100;
 }
 
 .btns p:first-of-type {
