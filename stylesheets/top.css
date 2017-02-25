@@ -7,6 +7,19 @@ h1 {
   position: absolute;
 }
 
+h1 span {
+  text-decoration: underline;
+}
+
+a {
+  color:rgba(155, 0, 255, 1);
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 .top p {
   font-weight: 800;
   font-size: 46px;
@@ -20,7 +33,7 @@ h1 {
 }
 
 .top p:nth-of-type(2) {
-  margin: 765px 0 0 50px;
+  margin: 779px 0 0 50px;
 }
 
 .top p:nth-of-type(3) {
@@ -34,9 +47,126 @@ h1 {
   margin-top: 235px;
 }
 
+.top .photo {
+  border: 10px solid #1d1d1b;
+  border-left: none;
+}
+
 .cloud {
   margin-top: 110px;
   margin-left: 260px;
   position: absolute;
   opacity: .7;
+}
+
+#back {
+  width: 607px;
+  position: absolute;
+  margin: 585px 0 0 -7px;
+  z-index: -1;
+}
+
+#sun {
+  width: 1133px;
+  position: absolute;
+  margin: 50px 0 0 364px;
+  opacity: .8;
+}
+
+#cloud {
+  position: absolute;
+  width: 833px;
+  margin: 939px 0 0 560px;
+  opacity: .8;
+}
+
+@media screen and (min-width: 1441px) {
+  #sun {
+    width: 1043px;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .top {
+    width: 1000px;
+  }
+
+  h1 {
+    margin: 30px 0 0 180px;
+    position: absolute;
+  }
+
+  h1 span {
+    text-decoration: underline;
+  }
+
+  a {
+    color:rgba(155, 0, 255, 1);
+  }
+
+  a:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+  .top p {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 44px;
+    width: 596px;
+    position: absolute;
+  }
+
+  .top p:first-of-type {
+    margin: 730px 0 0 200px;
+  }
+
+  .top p:nth-of-type(2) {
+    margin: 1590px 0 0 200px;
+  }
+
+  .top p:nth-of-type(3) {
+    margin: 2360px 0 0 200px;
+  }
+
+  .photo {
+    position: absolute;
+    width: 600px;
+    height: 375px;
+    margin-top: 235px;
+    margin-left: 180px
+  }
+
+  .top .photo {
+    border: 10px solid #1d1d1b;
+  }
+
+  .cloud {
+    margin-top: 110px;
+    margin-left: 260px;
+    position: absolute;
+    opacity: .7;
+  }
+
+  #back {
+    width: 607px;
+    position: absolute;
+    margin: 585px 0 0 173px;
+    z-index: -1;
+    border-left: 10px solid #1d1d1b;
+  }
+
+  #sun {
+    width: 1133px;
+    position: absolute;
+    margin: 50px 0 0 -50px;
+    opacity: .8;
+  }
+
+  #cloud {
+    position: absolute;
+    width: 833px;
+    margin: 939px 0 0 0;
+    opacity: .8;
+  }
 }

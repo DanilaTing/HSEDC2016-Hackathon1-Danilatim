@@ -4,10 +4,34 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  width: 1440px;
-  height: 3988px;
   /*background-image: url(../images/mockup.png);*/
   background-size: cover;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  width: 1440px;
+  height: 3988px;
+}
+
+@media screen and (max-width: 1340px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .wrapper {
+    border-left: 10px solid #1d1d1b;
+    border-right: 10px solid #1d1d1b;
+    overflow: hidden;
+  }
 }
 
 h1 {
