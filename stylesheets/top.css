@@ -28,12 +28,18 @@ a:hover {
   text-decoration: none;
 }
 
+.notFull {
+  display: none;
+}
+
 .top p {
   font-weight: 800;
-  font-size: 46px;
-  line-height: 44px;
+  font-size: 40px;
+  line-height: 46px;
   width: 596px;
   position: absolute;
+  width: 630px;
+  height: 630px;
 }
 
 .top p:first-of-type {
@@ -41,11 +47,11 @@ a:hover {
 }
 
 .top p:nth-of-type(2) {
-  margin: 779px 0 0 50px;
+  margin: 820px 0 0 50px;
 }
 
 .top p:nth-of-type(3) {
-  margin: 1130px 0 0 800px;
+  margin: 900px 0 0 800px;
 }
 
 .photo {
@@ -81,6 +87,12 @@ a:hover {
   margin-top: 585px;
 }
 
+@media screen and (min-width: 1441px) {
+  .top .photo, #back {
+    margin-left: -10px;
+  }
+}
+
 @media screen and (max-width: 1340px) {
   .top {
     width: 1000px;
@@ -90,6 +102,14 @@ a:hover {
   h1 {
     margin: 30px 0 0 180px;
     position: absolute;
+  }
+
+  .full {
+    display: none;
+  }
+
+  .notFull {
+    display: inline;
   }
 
   .top p {
@@ -106,19 +126,11 @@ a:hover {
   }
 
   .top p:nth-of-type(3) {
-    margin: 2050px 0 0 180px;
-  }
-
-  .photo {
-    position: absolute;
-    width: 600px;
-    height: 375px;
-    margin-top: 235px;
-    margin-left: 180px
+    margin: 1916px 0 0 180px;
   }
 
   .top .photo {
-    border: 10px solid #1d1d1b;
+    margin-left: 180px;
   }
 
   .cloud {
