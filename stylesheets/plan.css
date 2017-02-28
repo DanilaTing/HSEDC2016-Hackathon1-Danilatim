@@ -8,6 +8,12 @@
 
 }
 
+.texts p {
+  height: 570px;
+  overflow-y: scroll;
+  z-index: 500;
+}
+
 .plan p {
   font-weight: 600;
   font-size: 40px;
@@ -18,10 +24,30 @@
   margin: 150px 0 0 850px;
 }
 
-.plan img {
+.carouselWrapper {
   position: absolute;
   margin: 400px 0 0 100px;
   border: 10px solid #1d1d1b;
+  width: 600px;
+  height: 375px;
+  z-index: 200;
+}
+
+.carousel1 {
+  width: 2900px;
+  display: flex;
+}
+
+.carousel1 div {
+  width: 600px;
+  height: 375px;
+  position: relative;
+}
+
+.carousel1 div .photo {
+  width: 580px;
+  height: 355px;
+  margin-top: 0;
 }
 
 #plan {
@@ -30,10 +56,10 @@
   margin: 30px 0 0 500px;
 }
 
-.plan p.number {
+p.number {
   font-weight: 800;
   font-size: 100px;
-  margin: 50px 0 0 830px;
+  margin: 50px 0 0 850px;
   position: absolute;
 }
 
@@ -50,6 +76,12 @@
   height: 40px;
   border-right: 10px solid black;
   border-top: 10px solid black;
+  z-index: 500;
+  cursor: pointer;
+}
+
+.chevron:hover {
+  border-color: rgba(155, 0, 255, 1);
 }
 
 .right {
