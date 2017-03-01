@@ -11,6 +11,7 @@ body {
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
+  width: 100vw;
 }
 
 .wrapper {
@@ -26,7 +27,7 @@ body {
 .background {
   width: 1440px;
   height: 3740px;
-  /*opacity: 0;*/
+  overflow: hidden;
   position: absolute;
   opacity: .5;
 }
@@ -45,6 +46,7 @@ body {
   font-size: 60px;
   text-align: center;
   cursor: pointer;
+  color: rgba(155, 0, 255, 1);
   z-index: 500;
 }
 
@@ -70,8 +72,8 @@ body {
   margin-top: 200px;
 }
 
-#storm:last-of-type {
-  display: none;
+.background svg:last-of-type {
+  margin-top: 80px;
 }
 
 h1 {
@@ -80,10 +82,33 @@ h1 {
   line-height: 47px;
 }
 
+.onmouseover {
+  width: 100vw;
+  height: 500px;
+  position: absolute;
+}
+
+.one {
+  margin-top: 1300px;
+}
+
+.two {
+  margin-top: 2340px;
+}
+
+.three {
+
+}
+
+@media screen and (min-width: 1341px) {
+  .notFull {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1340px) {
   .wrapper {
-    max-width: 1340px;
-    min-width: 800px;
+    width: 800px;
     height: 5100px;
     /*display: flex;
     justify-content: flex-start;
@@ -91,13 +116,21 @@ h1 {
     align-items: center;*/
   }
 
+  .background {
+    height: 5100px;
+  }
+
   #storm:last-of-type {
     display: block;
   }
 
+  .full {
+    display: none;
+  }
+
   .footer {
     width: 800px;
-    margin-top: 500px;
+    margin-top: 200px;
   }
 
   .footer p:first-of-type {
@@ -106,6 +139,14 @@ h1 {
 
   .footer p:last-of-type {
     margin-left: 320px;
+  }
+
+  .one {
+    margin-top: 2300px;
+  }
+
+  .two {
+    margin-top: 3240px;
   }
 
 }

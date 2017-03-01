@@ -19,17 +19,15 @@ h1 span {
   text-decoration: underline;
 }
 
-a {
+.goto {
   color: rgba(155, 0, 255, 1);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-a:hover {
+.goto:hover {
   color: black;
   text-decoration: none;
-}
-
-.notFull {
-  display: none;
 }
 
 .top p {
@@ -96,20 +94,12 @@ a:hover {
 @media screen and (max-width: 1340px) {
   .top {
     width: 1000px;
-    height: 2500px;
+    height: 2335px;
   }
 
   h1 {
     margin: 30px 0 0 180px;
     position: absolute;
-  }
-
-  .full {
-    display: none;
-  }
-
-  .notFull {
-    display: inline;
   }
 
   .top p {
