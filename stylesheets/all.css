@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+
+  /*background-image: url(../images/main.png);*/
+  background-size: cover;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
