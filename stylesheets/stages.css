@@ -1,0 +1,95 @@
+.stages .hStage {
+  margin-top: 10vh;
+  margin-left: 30.8vw;
+}
+
+.stages img:first-of-type {
+  width: 27.1vw;
+
+  margin-left: 65vw;
+
+  animation-name: cloudS;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cloudS {
+    10% {margin-left: 70vw; margin-top: 5vh;}
+    30% {margin-left: 65vw; margin-top: 10vh;}
+    50% {margin-left: 60vw; margin-top: 3vh;}
+    70% {margin-left: 55vw; margin-top: 7vh;}
+    90% {margin-left: 60vw; margin-top: 5vh;}
+    100% {margin-left: 65vw; margin-top: 0vh;}
+}
+
+.stages img:nth-of-type(2) {
+  width: 27.1vw;
+
+  margin-left: 3vw;
+  margin-top: 30vw;
+
+  animation-name: cloudS2;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cloudS2 {
+    10% {margin-left: 5vw; margin-top: 37vw;}
+    30% {margin-left: 3vw; margin-top: 40vw;}
+    50% {margin-left: 5vw; margin-top: 45vw;}
+    70% {margin-left: 2vw; margin-top: 40vw;}
+    90% {margin-left: 1vw; margin-top: 37vw;}
+    100% {margin-left: 3vw; margin-top: 35vw;}
+}
+
+.stagesSqr {
+  position: absolute;
+  width: 34vw;
+  height: 61.7vh;
+  margin-top: 32vh;
+  margin-left: 31vw;
+
+  /*display: flex;
+  align-items: center;*/
+
+  background-color: white;
+  border: 10px solid black;
+}
+
+.stagesSqr div {
+  /*width: 34vw;*/
+  height: 90%;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7%;
+}
+
+.stagesSqr div h1 {
+  color: black;
+  position: static;
+  cursor: pointer;
+}
+
+.stagesSqr div h1:hover {
+  color: #00BCD4;
+}
+
+.stagesSqr div li:hover {
+  /*color: #00BCD4;*/
+}
+
+.stagesSqr div ul {
+  position: static;
+  font-weight: 400;
+  font-size: 2.6rem;
+  /*margin-left: 13%;*/
+  line-height: 3rem;
+  display: none;
+}
+
+.stagesSqr div h1:nth-of-type(2):hover ul {
+  display: block;
+}

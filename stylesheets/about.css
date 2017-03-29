@@ -27,7 +27,7 @@ img {
     100% {margin-left: 35vw; margin-top: 0vh;}
 }
 
-figure {
+.about figure {
   position: absolute;
   width: 43vw;
   height: 47.8vh;
@@ -52,7 +52,7 @@ p {
   font-weight: 700;
 }
 
-p:not(:first-of-type) {
+.about p:not(:first-of-type) {
   margin-top: 6vh;
 }
 
