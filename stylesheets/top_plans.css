@@ -71,7 +71,7 @@
   font-weight: 600;
 }
 
-.nav.top figure {
+.nav.top figure svg {
   width: 4.4vw;
   height: 3.829vw;
   background-image: url(../images/vectors/top_small.svg);
