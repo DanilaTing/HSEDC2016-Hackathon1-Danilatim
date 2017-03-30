@@ -1,0 +1,51 @@
+.low_plans {
+  margin-top: 10vw;
+}
+
+.low_plans > p {
+  font-weight: 400;
+
+  position: absolute;
+  width: 37.5vw;
+  margin-top: 10vw;
+  margin-left: 3.5vw;
+}
+
+.low_plan {
+  position: absolute;
+  width: 20.8vw;
+  height: 18.3vw;
+  margin-left: 3.8vw;
+  margin-top: 25vw;
+  background-image: url(../images/low/low_plan.png);
+  background-size: cover;
+}
+
+.photosLow {
+  width: 43vw;
+  height: 27.2vw;
+  background-image: url(../images/low/chillzone.jpg);
+  background-size: cover;
+  border: 10px solid black;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg {
+  position: absolute;
+  z-index: -1;
+  margin-left: 3vw;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/vectors/patterns-weather.svg);
+  background-size: cover;
+}
+
+iframe {
+  width: 62.5vw;
+  border: 10px solid #00BCD4;
+}

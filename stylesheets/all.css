@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /*font-size: 62.5%;*/
+  font-size: 0.69vw;
+}
+
+body {
+  width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+
+  /*background-image: url(../images/main.png);*/
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  width: 100vw;
+  height: 827px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
