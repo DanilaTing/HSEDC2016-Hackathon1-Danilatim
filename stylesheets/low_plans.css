@@ -1,0 +1,22 @@
+.low_plans {
+  margin-top: 10vw;
+}
+
+.low_plans > p {
+  font-weight: 400;
+
+  position: absolute;
+  width: 37.5vw;
+  margin-top: 10vw;
+  margin-left: 3.5vw;
+}
+
+.low_plan {
+  position: absolute;
+  width: 20.8vw;
+  height: 18.3vw;
+  margin-left: 3.8vw;
+  margin-top: 25vw;
+  background-image: url(../images/low/low_plan.png);
+  background-size: cover;
+}

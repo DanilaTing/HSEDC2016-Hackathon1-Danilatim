@@ -1,4 +1,8 @@
-.top_plans p {
+.top_plans {
+  margin-top: 10vw;
+}
+
+.top_plans > p {
   font-size: 2.6rem;
   font-weight: 400;
 
@@ -8,10 +12,78 @@
   margin-left: 3.5vw;
 }
 
-.navTop {
+.reception_plan {
+  position: absolute;
+  width: 20.8vw;
+  height: 10.6vw;
+  margin-left: 3.8vw;
+  margin-top: 40vw;
+  background-image: url(../images/top/reception_plan.png);
+  background-size: cover;
+}
+
+.nav {
   position: absolute;
   width: 48.6vw;
   display: flex;
   justify-content: space-between;
-  margin-left: 47vw;
+  margin-left: 49.7vw;
+}
+
+.nav.top {
+  margin-top: 2vw;
+}
+
+.nav.top p,
+.nav.top figure {
+  position: static;
+}
+
+.nav p {
+  font-weight: 600;
+}
+
+.nav.top figure {
+  width: 4.4vw;
+  height: 3.829vw;
+  background-image: url(../images/vectors/top_small.svg);
+  background-size: cover;
+}
+
+.gallery {
+  position: absolute;
+  width: 50vw;
+  height: 28.9vw;
+  margin-top: 20vw;
+  margin-left: 47.7vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.photosTop {
+  width: 43vw;
+  height: 27.2vw;
+  background-image: url(../images/top/reception.jpg);
+  background-size: cover;
+  border: 10px solid black;
+}
+
+.gallery i {
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.gallery i:hover {
+  color: #00BCD4;
+}
+
+.nav.bottom {
+  /*display: none;*/
+  margin-top: 53.3vw;
+}
+
+p > p {
+  font-size: 10px;
 }

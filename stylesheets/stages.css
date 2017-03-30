@@ -1,5 +1,5 @@
 .stages .hStage {
-  margin-top: 10vh;
+  margin-top: 5.7vw;
   margin-left: 30.8vw;
 }
 
@@ -14,12 +14,12 @@
 }
 
 @keyframes cloudS {
-    10% {margin-left: 70vw; margin-top: 5vh;}
-    30% {margin-left: 65vw; margin-top: 10vh;}
-    50% {margin-left: 60vw; margin-top: 3vh;}
-    70% {margin-left: 55vw; margin-top: 7vh;}
-    90% {margin-left: 60vw; margin-top: 5vh;}
-    100% {margin-left: 65vw; margin-top: 0vh;}
+    10% {margin-left: 70vw; margin-top: 2.85vw;}
+    30% {margin-left: 65vw; margin-top: 5.7vw;}
+    50% {margin-left: 60vw; margin-top: 1.71vw;}
+    70% {margin-left: 55vw; margin-top: 4vw;}
+    90% {margin-left: 60vw; margin-top: 2.85;}
+    100% {margin-left: 65vw; margin-top: 0vw;}
 }
 
 .stages img:nth-of-type(2) {
@@ -45,8 +45,8 @@
 .stagesSqr {
   position: absolute;
   width: 34vw;
-  height: 61.7vh;
-  margin-top: 32vh;
+  height: 35.2vw;
+  margin-top: 18.2vw;
   margin-left: 31vw;
 
   /*display: flex;
