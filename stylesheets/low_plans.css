@@ -2,6 +2,11 @@
   margin-top: 10vw;
 }*/
 
+.low_plans {
+  width: 100vw;
+  height: 827px;
+}
+
 .low_plans > p {
   font-weight: 400;
 
@@ -21,12 +26,35 @@
   background-size: cover;
 }
 
+.gallery {
+  position: absolute;
+  width: 50vw;
+  height: 28.9vw;
+  margin-top: 20vw;
+  margin-left: 47.7vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
 .photosLow {
   width: 43vw;
   height: 27.2vw;
-  background-image: url(../images/low/chillzone.jpg);
   background-size: cover;
   border: 10px solid black;
+}
+
+.first .photosLow {
+  background-image: url(../images/low/chillzone.jpg);
+}
+
+.second .photosLow {
+  background-image: url(../images/low/kitchen.jpg);
+}
+
+.third .photosLow {
+  background-image: url(../images/low/pool.jpg);
 }
 
 .video {
