@@ -1,54 +1,43 @@
 $(function () {
-  $('.top .goto').click(function () {
-    $('html, body').animate({
-        scrollTop: $(".plans").offset().top
-    }, 1000);
-    $('.plans').css({'opacity': '1', 'transition': 'all 4s ease'});
-  })
-
   $('.second, .third, .fourth, .fifth').css("display", "none");
-  $('.first .left').css("opacity", "0");
 
-  $('.first .right').click(function() {
+  $('.first .fa-chevron-right').click(function() {
     $('.first, .third, .fourth, .fifth').css("display", "none");
     $('.second').css("display", "block");
   });
 
-  $('.second .left').click(function() {
+  $('.second .fa-chevron-left').click(function() {
     $('.second, .third, .fourth, .fifth').css("display", "none");
     $('.first').css("display", "block");
   });
-  $('.second .right').click(function() {
+  $('.second .fa-chevron-right').click(function() {
     $('.first, .second, .fourth, .fifth').css("display", "none");
     $('.third').css("display", "block");
   });
 
-  $('.third .left').click(function() {
+  $('.third .fa-chevron-left').click(function() {
     $('.first, .third, .fourth, .fifth').css("display", "none");
     $('.second').css("display", "block");
   });
-  $('.third .right').click(function() {
+  $('.third .fa-chevron-right').click(function() {
     $('.first, .second, .third, .fifth').css("display", "none");
     $('.fourth').css("display", "block");
   });
 
-  $('.fourth .left').click(function() {
+  $('.fourth .fa-chevron-left').click(function() {
     $('.first, .second, .fourth, .fifth').css("display", "none");
     $('.third').css("display", "block");
   });
-  $('.fourth .right').click(function() {
+  $('.fourth .fa-chevron-right').click(function() {
     $('.first, .second, .third, .fourth').css("display", "none");
     $('.fifth').css("display", "block");
     $('.fifth .right').css("opacity", "0");
   });
 
-  $('.fifth .left').click(function() {
+  $('.fifth .fa-chevron-left').click(function() {
     $('.first, .second, .third, .fifth').css("display", "none");
     $('.fourth').css("display", "block");
   });
-
-  $('.lowSecond').css("opacity", "0");
-  $('.lowFirst .left').css("opacity", "0");
 
   $('.lowFirst .right').click(function() {
     $('.lowFirst').css("opacity", "0");
