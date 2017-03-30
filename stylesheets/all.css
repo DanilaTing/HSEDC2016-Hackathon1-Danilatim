@@ -3,7 +3,8 @@
 }
 
 :root {
-  font-size: 62.5%;
+  /*font-size: 62.5%;*/
+  font-size: 0.69vw;
 }
 
 body {
@@ -12,6 +13,8 @@ body {
 
   /*background-image: url(../images/main.png);*/
   background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 section {
