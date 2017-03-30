@@ -8,6 +8,8 @@
 }
 
 .low_plans > p {
+  font-size: 2rem;
+  line-height: 2.6rem;
   font-weight: 400;
 
   position: absolute;

@@ -8,6 +8,16 @@ h1 {
   margin-top: 2vw;
 }
 
+.about > a {
+  color: #00BCD4;
+  font-weight: 400;
+  font-size: 1.5rem;
+  position: absolute;
+  margin-left: 95vw;
+  margin-top: 2vw;
+
+}
+
 img {
   position: absolute;
   z-index: 1;
@@ -50,6 +60,7 @@ p {
   font-size: 2.6rem;
   color: black;
   font-weight: 700;
+  line-height: 2.9rem;
 }
 
 .about p:not(:first-of-type) {

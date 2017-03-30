@@ -4,7 +4,8 @@
 }
 
 .top_plans > p {
-  font-size: 2.6rem;
+  font-size: 2rem;
+  line-height: 2.6rem;
   font-weight: 400;
 
   position: absolute;
@@ -69,12 +70,12 @@
 
 .nav p {
   font-weight: 600;
+  font-size: 2.6rem;
 }
 
 .nav.top figure svg {
   width: 4.4vw;
   height: 3.829vw;
-  background-image: url(../images/vectors/top_small.svg);
   background-size: cover;
 }
 
