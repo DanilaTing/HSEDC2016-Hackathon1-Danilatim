@@ -20,7 +20,7 @@ body {
 
 section {
   width: 100vw;
-  height: 827px;
+  height: 100vh;
 }
 
 section:not(:last-of-type) {

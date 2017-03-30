@@ -1,41 +1,60 @@
 $(function () {
   $('.second, .third, .fourth, .fifth').css("display", "none");
 
-  $('.first .fa-chevron-right').click(function() {
-    $('.first, .third, .fourth, .fifth').css("display", "none");
-    $('.second').css("display", "flex");
+  $('.top_plans.first .fa-chevron-right').click(function() {
+    $('.top_plans.first, .top_plans.third, .top_plans.fourth, .top_plans.fifth').css("display", "none");
+    $('.top_plans.second').css("display", "flex");
   });
 
-  $('.second .fa-chevron-left').click(function() {
-    $('.second, .third, .fourth, .fifth').css("display", "none");
-    $('.first').css("display", "flex");
+  $('.top_plans.second .fa-chevron-left').click(function() {
+    $('.top_plans.second, .top_plans.third, .top_plans.fourth, .top_plans.fifth').css("display", "none");
+    $('.top_plans.first').css("display", "flex");
   });
-  $('.second .fa-chevron-right').click(function() {
-    $('.first, .second, .fourth, .fifth').css("display", "none");
-    $('.third').css("display", "flex");
-  });
-
-  $('.third .fa-chevron-left').click(function() {
-    $('.first, .third, .fourth, .fifth').css("display", "none");
-    $('.second').css("display", "flex");
-  });
-  $('.third .fa-chevron-right').click(function() {
-    $('.first, .second, .third, .fifth').css("display", "none");
-    $('.fourth').css("display", "flex");
+  $('.top_plans.second .fa-chevron-right').click(function() {
+    $('.top_plans.first, .top_plans.second, .top_plans.fourth, .top_plans.fifth').css("display", "none");
+    $('.top_plans.third').css("display", "flex");
   });
 
-  $('.fourth .fa-chevron-left').click(function() {
-    $('.first, .second, .fourth, .fifth').css("display", "none");
-    $('.third').css("display", "flex");
+  $('.top_plans.third .fa-chevron-left').click(function() {
+    $('.top_plans.first, .top_plans.third, .top_plans.fourth, .top_plans.fifth').css("display", "none");
+    $('.top_plans.second').css("display", "flex");
   });
-  $('.fourth .fa-chevron-right').click(function() {
-    $('.first, .second, .third, .fourth').css("display", "none");
-    $('.fifth').css("display", "flex");
+  $('.top_plans.third .fa-chevron-right').click(function() {
+    $('.top_plans.first, .top_plans.second, .top_plans.third, .top_plans.fifth').css("display", "none");
+    $('.top_plans.fourth').css("display", "flex");
   });
 
-  $('.fifth .fa-chevron-left').click(function() {
-    $('.first, .second, .third, .fifth').css("display", "none");
-    $('.fourth').css("display", "flex");
+  $('.top_plans.fourth .fa-chevron-left').click(function() {
+    $('.top_plans.first, .top_plans.second, .top_plans.fourth, .top_plans.fifth').css("display", "none");
+    $('.top_plans.third').css("display", "flex");
+  });
+  $('.top_plans.fourth .fa-chevron-right').click(function() {
+    $('.top_plans.first, .top_plans.second, .top_plans.third, .top_plans.fourth').css("display", "none");
+    $('.top_plans.fifth').css("display", "flex");
+  });
+
+  $('.top_plans.fifth .fa-chevron-left').click(function() {
+    $('.top_plans.first, .second, .third, .fifth').css("display", "none");
+    $('.top_plans.fourth').css("display", "flex");
+  });
+
+  $('.low_plans .first .fa-chevron-right').click(function() {
+    $('.low_plans .first, .low_plans .third, .low_plans .fourth, .low_plans .fifth').css("display", "none");
+    $('.low_plans .second').css("display", "flex");
+  });
+
+  $('.low_plans .second .fa-chevron-left').click(function() {
+    $('.low_plans .second, .low_plans .third, .low_plans .fourth, .low_plans .fifth').css("display", "none");
+    $('.low_plans .first').css("display", "flex");
+  });
+  $('.low_plans .second .fa-chevron-right').click(function() {
+    $('.low_plans .first, .low_plans .second, .low_plans .fourth, .low_plans .fifth').css("display", "none");
+    $('.low_plans .third').css("display", "flex");
+  });
+
+  $('.low_plans .third .fa-chevron-left').click(function() {
+    $('.low_plans .first, .low_plans .third, .low_plans .fourth, .low_plans .fifth').css("display", "none");
+    $('.low_plans .second').css("display", "flex");
   });
 
 });
