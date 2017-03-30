@@ -23,13 +23,17 @@ section {
   height: 827px;
 }
 
+section:not(:last-of-type) {
+  padding-bottom: 5vw;
+}
+
 a {
   text-decoration: none;
   color: black;
 }
 
 @media screen and (min-width: 1620px) {
-  section:not(:first-of-type) {
-    margin-top: 25vw;
+  section:not(:last-of-type) {
+    padding-bottom: 25vw;
   }
 }

@@ -1,5 +1,20 @@
-// $(function () {
-//   $('.stagesSqr h1:nth-of-type(2)').hover(function () {
-//     $('ul').css('display', 'block');
-//   });
-// });
+$(function () {
+  $(".main").onepage_scroll({
+     sectionContainer: "section",
+     easing: "ease",
+
+     animationTime: 1000,
+     pagination: false,
+     updateURL: false,
+     beforeMove: function(index) {},
+     afterMove: function(index) {},
+     loop: false,
+     keyboard: true,
+     responsiveFallback: false,
+
+
+     direction: "vertical"
+  });
+
+  
+});

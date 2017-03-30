@@ -1,5 +1,6 @@
 .top_plans {
-  margin-top: 10vw;
+  width: 100vw;
+  height: 827px;
 }
 
 .top_plans > p {
@@ -18,8 +19,35 @@
   height: 10.6vw;
   margin-left: 3.8vw;
   margin-top: 40vw;
-  background-image: url(../images/top/reception_plan.png);
   background-size: cover;
+}
+
+.first .reception_plan {
+  background-image: url(../images/top/reception_plan.png);
+}
+
+.second .reception_plan {
+  background-image: url(../images/top/sun_plan.png);
+  width: 15vw;
+  height: 15vw;
+}
+
+.third .reception_plan {
+  background-image: url(../images/top/cloud_plan.png);
+  width: 15vw;
+  height: 15vw;
+}
+
+.fourth .reception_plan {
+  background-image: url(../images/top/rain_plan.png);
+  width: 15vw;
+  height: 15vw;
+}
+
+.fifth .reception_plan {
+  background-image: url(../images/top/storm_plan.png);
+  width: 15vw;
+  height: 15vw;
 }
 
 .nav {
@@ -65,9 +93,28 @@
 .photosTop {
   width: 43vw;
   height: 27.2vw;
-  background-image: url(../images/top/reception.jpg);
   background-size: cover;
   border: 10px solid black;
+}
+
+.first .photosTop {
+  background-image: url(../images/top/reception.jpg);
+}
+
+.second .photosTop {
+  background-image: url(../images/top/sun.jpg);
+}
+
+.third .photosTop {
+  background-image: url(../images/top/cloud.jpg);
+}
+
+.fourth .photosTop {
+  background-image: url(../images/top/rain.jpg);
+}
+
+.fifth .photosTop {
+  background-image: url(../images/top/storm.jpg);
 }
 
 .gallery i {
