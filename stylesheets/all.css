@@ -3,7 +3,6 @@
 }
 
 :root {
-  /*font-size: 62.5%;*/
   font-size: 0.69vw;
 }
 
@@ -11,8 +10,7 @@ body {
   width: 100vw;
   font-family: 'Open Sans', sans-serif;
 
-  /*background-image: url(../images/main.png);*/
-  background-size: cover;
+  background-image: url(../images/vectors/pattern2.svg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -20,7 +18,7 @@ body {
 
 section {
   width: 100vw;
-  height: 100vh;
+  height: 827px;
 }
 
 section:not(:last-of-type) {
@@ -30,6 +28,21 @@ section:not(:last-of-type) {
 a {
   text-decoration: none;
   color: black;
+}
+
+.background {
+  position: absolute;
+  width: 100vw;
+  height: 3308px;
+  margin-top: -4118px;
+}
+
+.background svg {
+  position: absolute;
+  width: 100vw;
+  height: 3308px;
+  z-index: -1;
+  margin-top: 0;
 }
 
 @media screen and (min-width: 1620px) {
