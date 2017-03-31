@@ -51,7 +51,7 @@ img {
 
 .texts {
   position: absolute;
-  max-width: 41vw;
+  width: 41vw;
   margin-left: 50vw;
   margin-top: 15.8vw;
 }
