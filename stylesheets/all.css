@@ -46,7 +46,7 @@ a {
 }
 
 @media screen and (min-width: 1620px) {
-  section:not(:first-of-type) {
-    padding-top: 10vw;
+  section {
+    height: 1000px;
   }
 }
