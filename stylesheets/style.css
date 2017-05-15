@@ -2,12 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic');
 @import 'font-awesome.css';
 
-/*@import 'main.css';
-@import 'top.css';
-@import 'plan.css';
-@import 'lower.css';*/
-@import 'all.css';
+/*@import 'all.css';*/
+@import 'main.css';
 @import 'about.css';
-@import 'stages.css';
+/*@import 'stages.css';*/
 @import 'top_plans.css';
 @import 'low_plans.css';

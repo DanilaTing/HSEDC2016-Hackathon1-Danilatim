@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box; }
+
+:root {
+  font-size: 0.69vw; }
+
+body {
+  width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(../images/vectors/pattern2.svg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; }
+  body section {
+    width: 100vw;
+    height: 827px;
+    overflow: hidden; }
+  body a {
+    text-decoration: none;
+    color: black; }
+
+/*# sourceMappingURL=main.css.map */
