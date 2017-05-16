@@ -101,37 +101,17 @@ body {
       }
 
       img {
+        position: absolute;
         width: 27.1vw;
+        margin-top: -10%;
 
         &:first-of-type {
           margin-left: 65vw;
-          animation-name: cloudS;
-          animation-duration: 20s;
-          animation-iteration-count: infinite;
-        }
-        @keyframes cloudS {
-          10% {margin-left: 70vw; margin-top: 2.85vw;}
-          30% {margin-left: 65vw; margin-top: 5.7vw;}
-          50% {margin-left: 60vw; margin-top: 1.71vw;}
-          70% {margin-left: 55vw; margin-top: 4vw;}
-          90% {margin-left: 60vw; margin-top: 2.85;}
-          100% {margin-left: 65vw; margin-top: 0vw;}
         }
 
         &:nth-of-type(2) {
           margin-left: 3vw;
           margin-top: 30vw;
-          animation-name: cloudS2;
-          animation-duration: 20s;
-          animation-iteration-count: infinite;
-        }
-        @keyframes cloudS2 {
-          10% {margin-left: 5vw; margin-top: 37vw;}
-          30% {margin-left: 3vw; margin-top: 40vw;}
-          50% {margin-left: 5vw; margin-top: 45vw;}
-          70% {margin-left: 2vw; margin-top: 40vw;}
-          90% {margin-left: 1vw; margin-top: 37vw;}
-          100% {margin-left: 3vw; margin-top: 35vw;}
         }
       }
 
@@ -139,29 +119,18 @@ body {
         position: absolute;
         width: 34vw;
         height: 35.2vw;
-        margin-top: 18.2vw;
-        margin-left: 31vw;
-
-        /*display: flex;
-        align-items: center;*/
+        margin-top: 3.2vw;
+        margin-left: 30vw;
 
         background-color: white;
         border: 0.69vw solid black;
 
         div {
-          /*width: 34vw;*/
-          height: 90%;
-          position: relative;
-
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          padding: 7%;
 
           h1 {
+            margin-left: 25%;
             @include h1;
             color: black;
-            position: static;
             cursor: pointer;
 
             &:hover {
@@ -180,20 +149,140 @@ body {
         }
       }
     }
+
+    .planss {
+
+      .top_plans {
+        width: 100vw;
+        height: 827px;
+
+        p {
+          @include p;
+          position: absolute;
+          width: 37.5vw;
+          margin-top: 20vw;
+          margin-left: 3.5vw;
+        }
+
+        .reception_plan {
+          position: absolute;
+          width: 20.8vw;
+          height: 10.6vw;
+          margin-left: 3.8vw;
+          margin-top: 40vw;
+          background-size: cover;
+        }
+      }
+    }
   }
 }
 
 
-
-.stagesSqr div ul {
-  position: static;
-  font-weight: 400;
-  font-size: 2.6rem;
-  /*margin-left: 13%;*/
-  line-height: 3rem;
-  display: none;
+.second .reception_plan {
+  background-image: url(../images/top/sun_plan.png);
+  width: 15vw;
+  height: 15vw;
 }
 
-.stagesSqr div h1:nth-of-type(2):hover ul {
-  display: block;
+.third .reception_plan {
+  background-image: url(../images/top/cloud_plan.png);
+  width: 15vw;
+  height: 15vw;
+}
+
+.fourth .reception_plan {
+  background-image: url(../images/top/rain_plan.png);
+  width: 15vw;
+  height: 15vw;
+}
+
+.fifth .reception_plan {
+  background-image: url(../images/top/storm_plan.png);
+  width: 15vw;
+  height: 15vw;
+}
+
+.nav {
+  position: absolute;
+  width: 48.6vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 49.7vw;
+}
+
+.nav.top {
+  margin-top: 2vw;
+}
+
+.nav.top p,
+.nav.top figure {
+  position: static;
+}
+
+.nav p {
+  font-weight: 600;
+  font-size: 2.6rem;
+}
+
+.nav.top figure svg {
+  width: 4.4vw;
+  height: 3.829vw;
+  background-size: cover;
+}
+
+.gallery {
+  position: absolute;
+  width: 50vw;
+  height: 28.9vw;
+  margin-top: 20vw;
+  margin-left: 47.7vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.photosTop {
+  width: 43vw;
+  height: 27.2vw;
+  background-size: cover;
+  border: 10px solid black;
+}
+
+.first .photosTop {
+  background-image: url(../images/top/reception.jpg);
+}
+
+.second .photosTop {
+  background-image: url(../images/top/sun.jpg);
+}
+
+.third .photosTop {
+  background-image: url(../images/top/cloud.jpg);
+}
+
+.fourth .photosTop {
+  background-image: url(../images/top/rain.jpg);
+}
+
+.fifth .photosTop {
+  background-image: url(../images/top/storm.jpg);
+}
+
+.gallery i {
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.gallery i:hover {
+  color: #00BCD4;
+}
+
+.nav.bottom {
+  /*display: none;*/
+  margin-top: 53.3vw;
+}
+
+p > p {
+  font-size: 10px;
 }
